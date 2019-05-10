@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8CC01F2BEEE38EA6DF31EF /* libPods-StaffManageDatabase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1147A18706A311B296DFFE43 /* libPods-StaffManageDatabase.a */; };
+		6461D9112283F88E00CC840E /* AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461D9102283F88E00CC840E /* AlertController.m */; };
+		64687C28227C18450002401D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64687C27227C18450002401D /* AppDelegate.m */; };
+		64687C2B227C18450002401D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64687C2A227C18450002401D /* ViewController.m */; };
+		64687C2E227C18450002401D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64687C2C227C18450002401D /* Main.storyboard */; };
+		64687C30227C18470002401D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64687C2F227C18470002401D /* Assets.xcassets */; };
+		64687C33227C18470002401D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64687C31227C18470002401D /* LaunchScreen.storyboard */; };
+		64687C36227C18470002401D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64687C35227C18470002401D /* main.m */; };
+		64687C3E227C18DA0002401D /* StaffEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 64687C3D227C18DA0002401D /* StaffEntity.m */; };
+		6472F0DD228258350039FA02 /* TableNameDropdownList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6472F0DC228258350039FA02 /* TableNameDropdownList.m */; };
+		648AC2D3227FC10B0006D3F1 /* AddDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 648AC2D2227FC10B0006D3F1 /* AddDatabase.m */; };
+		648AC2D6227FE64F0006D3F1 /* AddTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 648AC2D5227FE64F0006D3F1 /* AddTable.m */; };
+		648AC2D922800A430006D3F1 /* AddTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 648AC2D822800A430006D3F1 /* AddTableData.m */; };
+		648AC2DC228010DE0006D3F1 /* DeleteTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 648AC2DB228010DE0006D3F1 /* DeleteTableData.m */; };
+		648AC2DF228018930006D3F1 /* UpdateTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 648AC2DE228018930006D3F1 /* UpdateTableData.m */; };
+		648AC2E222801DBB0006D3F1 /* SelectTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 648AC2E122801DBB0006D3F1 /* SelectTableData.m */; };
+		648AC2E5228031360006D3F1 /* DeleteTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 648AC2E4228031360006D3F1 /* DeleteTable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1147A18706A311B296DFFE43 /* libPods-StaffManageDatabase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaffManageDatabase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFEE7D989C782C883CC967D /* Pods-StaffManageDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaffManageDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaffManageDatabase/Pods-StaffManageDatabase.release.xcconfig"; sourceTree = "<group>"; };
+		615CC2CDE3F2F0295A314DE8 /* Pods-StaffManageDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaffManageDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaffManageDatabase/Pods-StaffManageDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		6461D90F2283F88E00CC840E /* AlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertController.h; sourceTree = "<group>"; };
+		6461D9102283F88E00CC840E /* AlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertController.m; sourceTree = "<group>"; };
+		64687C23227C18450002401D /* StaffManageDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaffManageDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64687C26227C18450002401D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64687C27227C18450002401D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64687C29227C18450002401D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64687C2A227C18450002401D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64687C2D227C18450002401D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64687C2F227C18470002401D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64687C32227C18470002401D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64687C34227C18470002401D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64687C35227C18470002401D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64687C3C227C18DA0002401D /* StaffEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaffEntity.h; sourceTree = "<group>"; };
+		64687C3D227C18DA0002401D /* StaffEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaffEntity.m; sourceTree = "<group>"; };
+		6472F0DB228258350039FA02 /* TableNameDropdownList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableNameDropdownList.h; sourceTree = "<group>"; };
+		6472F0DC228258350039FA02 /* TableNameDropdownList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableNameDropdownList.m; sourceTree = "<group>"; };
+		648AC2D1227FC10B0006D3F1 /* AddDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDatabase.h; sourceTree = "<group>"; };
+		648AC2D2227FC10B0006D3F1 /* AddDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDatabase.m; sourceTree = "<group>"; };
+		648AC2D4227FE64F0006D3F1 /* AddTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTable.h; sourceTree = "<group>"; };
+		648AC2D5227FE64F0006D3F1 /* AddTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTable.m; sourceTree = "<group>"; };
+		648AC2D722800A430006D3F1 /* AddTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTableData.h; sourceTree = "<group>"; };
+		648AC2D822800A430006D3F1 /* AddTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTableData.m; sourceTree = "<group>"; };
+		648AC2DA228010DE0006D3F1 /* DeleteTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteTableData.h; sourceTree = "<group>"; };
+		648AC2DB228010DE0006D3F1 /* DeleteTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteTableData.m; sourceTree = "<group>"; };
+		648AC2DD228018930006D3F1 /* UpdateTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateTableData.h; sourceTree = "<group>"; };
+		648AC2DE228018930006D3F1 /* UpdateTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateTableData.m; sourceTree = "<group>"; };
+		648AC2E022801DBB0006D3F1 /* SelectTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectTableData.h; sourceTree = "<group>"; };
+		648AC2E122801DBB0006D3F1 /* SelectTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTableData.m; sourceTree = "<group>"; };
+		648AC2E3228031360006D3F1 /* DeleteTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteTable.h; sourceTree = "<group>"; };
+		648AC2E4228031360006D3F1 /* DeleteTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteTable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64687C20227C18450002401D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8CC01F2BEEE38EA6DF31EF /* libPods-StaffManageDatabase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64687C1A227C18450002401D = {
+			isa = PBXGroup;
+			children = (
+				64687C25227C18450002401D /* StaffManageDatabase */,
+				64687C24227C18450002401D /* Products */,
+				7633BA1DD8DB64B82C7705A5 /* Pods */,
+				A6B2AF84FA0038A8E97B4EAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64687C24227C18450002401D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64687C23227C18450002401D /* StaffManageDatabase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64687C25227C18450002401D /* StaffManageDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				6472F1002282D7590039FA02 /* AlertController */,
+				6472F0D4228254C10039FA02 /* DropDownList */,
+				648AC2CD227FBFA10006D3F1 /* StaffDataOperate */,
+				64687C26227C18450002401D /* AppDelegate.h */,
+				64687C27227C18450002401D /* AppDelegate.m */,
+				64687C29227C18450002401D /* ViewController.h */,
+				64687C2A227C18450002401D /* ViewController.m */,
+				64687C2C227C18450002401D /* Main.storyboard */,
+				64687C2F227C18470002401D /* Assets.xcassets */,
+				64687C31227C18470002401D /* LaunchScreen.storyboard */,
+				64687C34227C18470002401D /* Info.plist */,
+				64687C35227C18470002401D /* main.m */,
+				64687C3C227C18DA0002401D /* StaffEntity.h */,
+				64687C3D227C18DA0002401D /* StaffEntity.m */,
+			);
+			path = StaffManageDatabase;
+			sourceTree = "<group>";
+		};
+		6472F0D4228254C10039FA02 /* DropDownList */ = {
+			isa = PBXGroup;
+			children = (
+				6472F0DB228258350039FA02 /* TableNameDropdownList.h */,
+				6472F0DC228258350039FA02 /* TableNameDropdownList.m */,
+			);
+			path = DropDownList;
+			sourceTree = "<group>";
+		};
+		6472F1002282D7590039FA02 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				6461D90F2283F88E00CC840E /* AlertController.h */,
+				6461D9102283F88E00CC840E /* AlertController.m */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		648AC2CD227FBFA10006D3F1 /* StaffDataOperate */ = {
+			isa = PBXGroup;
+			children = (
+				648AC2D1227FC10B0006D3F1 /* AddDatabase.h */,
+				648AC2D2227FC10B0006D3F1 /* AddDatabase.m */,
+				648AC2D4227FE64F0006D3F1 /* AddTable.h */,
+				648AC2D5227FE64F0006D3F1 /* AddTable.m */,
+				648AC2D722800A430006D3F1 /* AddTableData.h */,
+				648AC2D822800A430006D3F1 /* AddTableData.m */,
+				648AC2DA228010DE0006D3F1 /* DeleteTableData.h */,
+				648AC2DB228010DE0006D3F1 /* DeleteTableData.m */,
+				648AC2DD228018930006D3F1 /* UpdateTableData.h */,
+				648AC2DE228018930006D3F1 /* UpdateTableData.m */,
+				648AC2E022801DBB0006D3F1 /* SelectTableData.h */,
+				648AC2E122801DBB0006D3F1 /* SelectTableData.m */,
+				648AC2E3228031360006D3F1 /* DeleteTable.h */,
+				648AC2E4228031360006D3F1 /* DeleteTable.m */,
+			);
+			path = StaffDataOperate;
+			sourceTree = "<group>";
+		};
+		7633BA1DD8DB64B82C7705A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				615CC2CDE3F2F0295A314DE8 /* Pods-StaffManageDatabase.debug.xcconfig */,
+				3BFEE7D989C782C883CC967D /* Pods-StaffManageDatabase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6B2AF84FA0038A8E97B4EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1147A18706A311B296DFFE43 /* libPods-StaffManageDatabase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64687C22227C18450002401D /* StaffManageDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64687C39227C18470002401D /* Build configuration list for PBXNativeTarget "StaffManageDatabase" */;
+			buildPhases = (
+				28DBFBC6D45C217B299BDE11 /* [CP] Check Pods Manifest.lock */,
+				64687C1F227C18450002401D /* Sources */,
+				64687C20227C18450002401D /* Frameworks */,
+				64687C21227C18450002401D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaffManageDatabase;
+			productName = StaffManageDatabase;
+			productReference = 64687C23227C18450002401D /* StaffManageDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64687C1B227C18450002401D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = PandaTest;
+				TargetAttributes = {
+					64687C22227C18450002401D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 64687C1E227C18450002401D /* Build configuration list for PBXProject "StaffManageDatabase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64687C1A227C18450002401D;
+			productRefGroup = 64687C24227C18450002401D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64687C22227C18450002401D /* StaffManageDatabase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64687C21227C18450002401D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64687C33227C18470002401D /* LaunchScreen.storyboard in Resources */,
+				64687C30227C18470002401D /* Assets.xcassets in Resources */,
+				64687C2E227C18450002401D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28DBFBC6D45C217B299BDE11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StaffManageDatabase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64687C1F227C18450002401D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64687C2B227C18450002401D /* ViewController.m in Sources */,
+				648AC2DC228010DE0006D3F1 /* DeleteTableData.m in Sources */,
+				648AC2E222801DBB0006D3F1 /* SelectTableData.m in Sources */,
+				64687C3E227C18DA0002401D /* StaffEntity.m in Sources */,
+				648AC2D6227FE64F0006D3F1 /* AddTable.m in Sources */,
+				648AC2E5228031360006D3F1 /* DeleteTable.m in Sources */,
+				6461D9112283F88E00CC840E /* AlertController.m in Sources */,
+				648AC2D922800A430006D3F1 /* AddTableData.m in Sources */,
+				648AC2D3227FC10B0006D3F1 /* AddDatabase.m in Sources */,
+				6472F0DD228258350039FA02 /* TableNameDropdownList.m in Sources */,
+				64687C36227C18470002401D /* main.m in Sources */,
+				648AC2DF228018930006D3F1 /* UpdateTableData.m in Sources */,
+				64687C28227C18450002401D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64687C2C227C18450002401D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64687C2D227C18450002401D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64687C31227C18470002401D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64687C32227C18470002401D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64687C37227C18470002401D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64687C38227C18470002401D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64687C3A227C18470002401D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615CC2CDE3F2F0295A314DE8 /* Pods-StaffManageDatabase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7344QT6P7;
+				INFOPLIST_FILE = StaffManageDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PandaH3.StaffManageDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		64687C3B227C18470002401D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFEE7D989C782C883CC967D /* Pods-StaffManageDatabase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7344QT6P7;
+				INFOPLIST_FILE = StaffManageDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PandaH3.StaffManageDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64687C1E227C18450002401D /* Build configuration list for PBXProject "StaffManageDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64687C37227C18470002401D /* Debug */,
+				64687C38227C18470002401D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64687C39227C18470002401D /* Build configuration list for PBXNativeTarget "StaffManageDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64687C3A227C18470002401D /* Debug */,
+				64687C3B227C18470002401D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64687C1B227C18450002401D /* Project object */;
+}
